@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6218411264258538169
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8880538470225872416}
+  - component: {fileID: 3682359333588026789}
+  m_Layer: 0
+  m_Name: SpawnerMeteorUp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8880538470225872416
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6218411264258538169}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.8229599, y: 6.1521554, z: -1285.7413}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3682359333588026789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6218411264258538169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e6d33b27c7e7c4399f5e6dabbf95d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meteorsPrefab:
+  - {fileID: 1010420321361001, guid: 1f7f754f1171c6f4da3c8fa6d2be93b2, type: 3}
+  - {fileID: 6246817228959034238, guid: ec9096aad8cac454e8d14722609dda66, type: 3}
+  - {fileID: 8458180763726717520, guid: c9a91b3da33e8534ca696dfcd09efe2f, type: 3}
+  - {fileID: 6283277695940254454, guid: 33e9a646adab68342a0680e5f2671623, type: 3}
+  - {fileID: 2136170451871650198, guid: 9288389963a180f44847ee824e456db0, type: 3}
+  - {fileID: 7001343138125180553, guid: 8dfdd0e1279cca74ba7c9f6b2ef182f4, type: 3}
+  - {fileID: 7619742284050507910, guid: e2675da1ca210c24f93c21f0e168b53c, type: 3}
+  - {fileID: 5935648438140962749, guid: 93dbd68027430104881fa95598c163ff, type: 3}
+  - {fileID: 4497991516458410894, guid: 7cefd7ddb09098049b8ee0197bb3659d, type: 3}
+  reloadTime: 4
+  DirectionMoveUp: 0
+  DirectionMoveDown: 1
+  DirectionMoveRight: 0
+  DirectionMoveLeft: 0
+  SpawnYDirection: 1
+  SpawnXDirection: 0
+  speedStart: 50
+  speedEnd: 60
